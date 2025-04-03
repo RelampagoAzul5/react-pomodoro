@@ -4,12 +4,11 @@ function App() {
   return (
     <div className="container">
       <PomodoroTimer
-        pomodoroTime={1500}
+        pomodoroTime={1200}
         shortRestTime={300}
         longRestTime={500}
         cycles={4}
       />
-      Olá mundo
     </div>
   );
 }
